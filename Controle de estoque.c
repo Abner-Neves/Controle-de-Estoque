@@ -20,8 +20,8 @@ int main(){
 	
 	struct estoque produto[5000];
 	
-	printf("Ol·, obrigado por testar o meu prgrama, deseja comeÁar com alguns produtos j· em estoque ?\n");
-	printf("1 - SIM | 2 - N√O, vou adicionar meus prÛprios produtos\n");
+	printf("Ol√°, obrigado por testar o meu programa, deseja come√ßar com alguns produtos j√° em estoque ?\n");
+	printf("1 - SIM | 2 - N√ÉO, vou adicionar meus pr√≥prios produtos\n");
 	scanf("%i", &hi);
 	
 	if (hi == 2){
@@ -93,7 +93,7 @@ int main(){
 		//ESTOQUE
 		if (a == 1){
 			
-			printf("CÛdigo\t\t  Produto\t\t\t\t Quantidade\t\tValor Unit·rio\n\n");
+			printf("C√≥digo\t\t  Produto\t\t\t\t Quantidade\t\tValor Unit√°rio\n\n");
 			
 			for(i =0; i <= itot+1; i++){
 				
@@ -109,7 +109,7 @@ int main(){
 				}
 			}  
 			
-			printf("\nDigite o cÛdigo do produto que deseja alterar | 1 - para adicionar um novo produto \n0 - Para procurar um produto pelo nome | Ou -1 para cancelar\n");
+			printf("\nDigite o c√≥digo do produto que deseja alterar | 1 - para adicionar um novo produto \n0 - Para procurar um produto pelo nome | Ou -1 para cancelar\n");
 			scanf("%i", &b);
 							
 				if (b == 1){
@@ -120,7 +120,7 @@ int main(){
 					printf("Insira a quantidade do produto\n");
 					scanf("%i", &produto[itot+1].qnt);
 					
-					printf("Insira o valor unit·rio do produto(no formato xx,xx)\n");
+					printf("Insira o valor unit√°rio do produto(no formato xx,xx)\n");
 					scanf("%f", &produto[itot+1].pre);
 					
 					produto[itot + 1].cod = itot + 1;
@@ -159,7 +159,7 @@ int main(){
 						
 						else {
 							
-							printf("Digite o cÛdigo do produto | 0 - Para cancelar\n");
+							printf("Digite o c√≥digo do produto | 0 - Para cancelar\n");
 							scanf("%i",&i);
 												
 								if (produto[i].ex == 1)
@@ -170,7 +170,7 @@ int main(){
 							
 								printf("%s \n", nome[i]);
 								printf("O que deseja alterar nesse produto?\n");
-								printf("1 - Adicionar unidades| 2 - Remover unidades | 3 - Alterar valor unit·rio | 4 - Renomear | 5 - Deletar\n0 - Cancelar\n");
+								printf("1 - Adicionar unidades| 2 - Remover unidades | 3 - Alterar valor unit√°rio | 4 - Renomear | 5 - Deletar\n0 - Cancelar\n");
 								scanf("%i", &c);
 							}
 							
@@ -178,7 +178,7 @@ int main(){
 							}
 							
 							else {
-								printf("Produto n„o encontrado\n");
+								printf("Produto n√£o encontrado\n");
 							}
 						}
 					}
@@ -192,13 +192,13 @@ int main(){
 						}
 					} 
 					if (found != 1){
-						printf("Produto n„o encontrado\n");
+						printf("Produto n√£o encontrado\n");
 					}
 					
 					else {
 						printf("%s \n", nome[i]);
 						printf("O que deseja alterar nesse produto?\n");
-						printf("1 - Adicionar unidades | 2 - Remover unidades | 3 - Alterar valor unit·rio | 4 - Renomear | 5 - Deletar\n0 - Cancelar\n");
+						printf("1 - Adicionar unidades | 2 - Remover unidades | 3 - Alterar valor unit√°rio | 4 - Renomear | 5 - Deletar\n0 - Cancelar\n");
 						scanf("%i", &c);
 					}
 				}					
@@ -222,7 +222,7 @@ int main(){
 				}
 				
 				else if (c == 3){
-					printf("Valor atual: %0.2f\t - Qual ser· o novo valor?\n", produto[i].pre);
+					printf("Valor atual: %0.2f\t - Qual ser√° o novo valor?\n", produto[i].pre);
 					scanf("%f", &produto[i].pre);
 					
 					printf("Valor alterado com sucesso\n");
@@ -239,7 +239,7 @@ int main(){
 				else if (c == 5){
 										
 					printf("Tem certeza que quer deletar %s?\n", nome[i]);
-					printf("1 - Sim | 2 - N„o\n");
+					printf("1 - Sim | 2 - N√£o\n");
 					scanf("%i", &d);
 					
 					if (d == 1){
@@ -256,7 +256,7 @@ int main(){
 			
 			if (itot > 1){
 				
-				printf("Digite o cÛdigo do produto | 1 - Finalizar compra | 0 - Cancelar\n\n");
+				printf("Digite o c√≥digo do produto | 1 - Finalizar compra | 0 - Cancelar\n\n");
 				
 				while(1) {
 
@@ -311,13 +311,13 @@ int main(){
 							}
 						}
 						else 
-							printf("Produto n„o encontrado\n");					
+							printf("Produto n√£o encontrado\n");					
 					}
 				}				
 			}	
 			
 			else {
-				printf("N„o h· produtos cadastrados no estoque\n");
+				printf("N√£o h√° produtos cadastrados no estoque\n");
 			}
 		}
 		
