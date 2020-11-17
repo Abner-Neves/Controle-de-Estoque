@@ -20,7 +20,7 @@ Meu objetivo era testar meus conhecimentos na linguagem C, e eventualmente traze
    Ao iniciar você terá 2 opções, gerenciar estoque e caixa
    ![Tela inicial](/Images/main.JPG)
    <br>
-   Se você optou por inicar com o estoque vazio não poderá ir ao caixa ainda.<br><br>
+   Se você optou por inicar com o estoque vazio não poderá utilizar o caixa ainda.<br><br>
    
    ### <i>Gerenciar Estoque </i> <br> 
    
