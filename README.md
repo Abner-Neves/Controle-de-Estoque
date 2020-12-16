@@ -20,11 +20,11 @@ Meu objetivo era testar meus conhecimentos na linguagem C, e eventualmente traze
    Ao iniciar você terá 2 opções, gerenciar estoque e caixa
    ![Tela inicial](/Images/main.JPG)
    <br>
-   Se você optou por inicar com o estoque vazio não poderá utilizar o caixa ainda.<br><br>
+   Se você optou por iniciar com o estoque vazio não poderá utilizar o caixa ainda.<br><br>
    
    ### <i>Gerenciar Estoque </i> <br> 
    
-   Ao teclar 1 você verá todos os itens cadastrados, e terá as opções de: alterar algum produto específico, pesquisar o produto por nome ou adicionar um produto
+   Ao digitar 1 você verá todos os itens cadastrados, e terá as opções de: alterar algum produto específico, pesquisar o produto por nome ou adicionar um produto
    ![Tela inicial](/Images/estoque.JPG)
    <br><br>
    Ao adicionar um item você deve declarar o seu nome, quantidade em estoque e valor unitário <br>
@@ -43,7 +43,7 @@ Meu objetivo era testar meus conhecimentos na linguagem C, e eventualmente traze
    ![Tela inicial](/Images/troco.JPG)
    <br><br>
    
-   *  ### Extra <br>
+   *  ### Comentário <br>
    Bom, vale ressaltar que é um sistema bem simples (tanto que nem lê acentos ou ç 😅), mas me diverti desenvolvendo ele e quis compartilhar aqui. E também é meu primeiro projeto no GitHub, então não sei exatamente como isso tudo funciona, mas fico aberto a dicas e comentários para que os próximos sejam melhores. <br><br>
    
    #### Thanks for checking it out :wave:
